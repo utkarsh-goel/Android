@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TextToSpeech</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="language">
+        <item>CHINESE</item>
+        <item>CANADA</item>
+        <item>FRENCH</item>
+        <item>GERMAN</item>
+        <item>ITALIAN</item>
+        <item>JAPANESE</item>
+        <item>KOREAN</item>
+        <item>TAIWAN</item>
+        <item>UK</item>
+        <item>US</item>
+    </string-array>
+    <string-array name="pitch">
+        <item>0.2</item>
+        <item>0.4</item>
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>1.8</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="speech_rate">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>4.0</item>
+    </string-array>
+</resources>

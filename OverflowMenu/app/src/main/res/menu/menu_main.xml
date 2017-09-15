@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.utkarshgoel.overflowmenu.MainActivity">
+    <group android:checkableBehavior="single" >
+    <item
+        android:id="@+id/red"
+        android:orderInCategory="1"
+        android:title="RED"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/green"
+        android:orderInCategory="2"
+        android:title="GREEN"
+        app:showAsAction="never" />
+    <item
+    android:id="@+id/yellow"
+    android:orderInCategory="3"
+    android:title="YELLOW"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/blue"
+        android:orderInCategory="4"
+        android:title="BLUE"
+        app:showAsAction="never" />
+    </group>
+</menu>
